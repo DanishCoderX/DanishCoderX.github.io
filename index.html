@@ -248,6 +248,7 @@ section{position:relative;z-index:2}
 .pg4::before{background:linear-gradient(135deg,#1a2e14,#254a1c)}
 .pg5::before{background:linear-gradient(135deg,#3a0c1f,#5c1436)}
 .pg6::before{background:linear-gradient(135deg,#0c2618,#125c38)}
+.pg7::before{background:linear-gradient(135deg,#2a1c08,#453109)}
 .pg8::before{background:linear-gradient(135deg,#1a1a2e,#2a2a4a)}
 .status-pill{
   position:absolute;top:.9rem;right:.9rem;z-index:1;
@@ -454,8 +455,8 @@ footer{border-top:1px solid var(--line);padding:2.2rem 5vw;display:flex;justify-
     <div class="about-grid">
       <div class="about-text reveal">
         <p>I'm <strong>Daanish Saeed</strong>, a Computer Science undergraduate at <strong>COMSATS University Islamabad — Attock Campus</strong>, graduating in 2026. I build full-stack web applications, AI-powered tools, and data-driven products from first sketch to a live, working site.</p>
-        <p>My recent work spans <strong>full-stack dashboards</strong>, <strong>AI-assisted resume and content tools</strong>, and a <strong>machine learning project</strong> fine-tuning transformer models for text classification — alongside freelance web development and professional resume design for clients across Pakistan and abroad.</p>
-        <p>I'm currently completing frontend and app development internships at <strong>DecodeLabs</strong>, <strong>DevelopersHub</strong>, and <strong>InternGrow</strong>, while building toward a career as a Full-Stack / AI-ML Engineer.</p>
+        <p>My recent work spans <strong>full-stack dashboards</strong>, <strong>AI-assisted resume and content tools</strong>, and <strong>implementation of features in Nexus</strong> — alongside freelance web development and professional resume design for clients across Pakistan and abroad.</p>
+        <p>I have recently completed frontend and app development internships at <strong>DecodeLabs</strong>, <strong>DevelopersHub</strong>, and <strong>InternGrow</strong>, while building toward a career as a Full-Stack / AI-ML Engineer.</p>
         <a href="#contact" class="btn btn-fill" style="margin-top:.5rem">Let's Work Together</a>
       </div>
       <div class="facts-card reveal">
@@ -523,8 +524,20 @@ footer{border-top:1px solid var(--line);padding:2.2rem 5vw;display:flex;justify-
     </div>
     <div class="proj-grid">
 
+        <div class="proj-card reveal">
+        <div class="proj-thumb pg1"><span class="icon">🧩</span>
+          <span class="status-pill status-academic"><span class="sd" style="background:var(--azure)"></span>ACADEMIC</span>
+        </div>
+        <div class="proj-body">
+          <h3>AI API Generator</h3>
+          <div class="proj-org">Final Year Project</div>
+          <p>A multi-provider system (Groq, Gemini, OpenRouter) that generates datasets, APIs, and dashboards on demand.</p>
+          <div class="ptags"><span class="ptag">Node.js</span><span class="ptag">Flask</span><span class="ptag">React</span></div>
+        </div>
+      </div>
+
       <div class="proj-card reveal">
-        <div class="proj-thumb pg1"><span class="icon">📄</span>
+        <div class="proj-thumb pg2"><span class="icon">📄</span>
           <span class="status-pill status-live"><span class="sd" style="background:var(--green)"></span>LIVE</span>
         </div>
         <div class="proj-body">
@@ -539,7 +552,7 @@ footer{border-top:1px solid var(--line);padding:2.2rem 5vw;display:flex;justify-
       </div>
 
       <div class="proj-card reveal">
-        <div class="proj-thumb pg2"><span class="icon">📊</span>
+        <div class="proj-thumb pg3"><span class="icon">📊</span>
           <span class="status-pill status-live"><span class="sd" style="background:var(--green)"></span>LIVE</span>
         </div>
         <div class="proj-body">
@@ -554,12 +567,12 @@ footer{border-top:1px solid var(--line);padding:2.2rem 5vw;display:flex;justify-
       </div>
 
       <div class="proj-card reveal">
-        <div class="proj-thumb pg3"><span class="icon">🤝</span>
+        <div class="proj-thumb pg4"><span class="icon">🤝</span>
           <span class="status-pill status-live"><span class="sd" style="background:var(--green)"></span>LIVE</span>
         </div>
         <div class="proj-body">
           <h3>Business Nexus</h3>
-          <div class="proj-org">DevelopersHub Internship Capstone</div>
+          <div class="proj-org">DevelopersHub Internship</div>
           <p>A platform connecting entrepreneurs and investors — meeting scheduler, video calls, e-signature document chamber, simulated payments, and two-factor authentication, delivered across 7 milestones.</p>
           <div class="ptags"><span class="ptag">React</span><span class="ptag">TypeScript</span><span class="ptag">WebRTC</span></div>
           <div class="plinks">
@@ -570,7 +583,23 @@ footer{border-top:1px solid var(--line);padding:2.2rem 5vw;display:flex;justify-
       </div>
 
       <div class="proj-card reveal">
-        <div class="proj-thumb pg4"><span class="icon">🗂️</span>
+        <div class="proj-thumb pg5"><span class="icon">🛒</span>
+          <span class="status-pill status-live"><span class="sd" style="background:var(--green)"></span>LIVE</span>
+        </div>
+        <div class="proj-body">
+          <h3>E-Commerce Website</h3>
+          <div class="proj-org">DevelopersHub Internship</div>
+          <p>A multi-page online store with product listings, cart, checkout, and login/register flows.</p>
+          <div class="ptags"><span class="ptag">HTML</span><span class="ptag">CSS</span><span class="ptag">JavaScript</span></div>
+          <div class="plinks">
+            <a href="https://danishcoderx.github.io/DevelopersHub-1stphase-Danish-Saeed/" target="_blank" class="plink plink-live">Live Demo ↗</a>
+            <a href="https://github.com/DanishCoderX/DevelopersHub-1stphase-Danish-Saeed" target="_blank" class="plink plink-code">Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-thumb pg6"><span class="icon">🗂️</span>
           <span class="status-pill status-live"><span class="sd" style="background:var(--green)"></span>LIVE</span>
         </div>
         <div class="proj-body">
@@ -586,8 +615,8 @@ footer{border-top:1px solid var(--line);padding:2.2rem 5vw;display:flex;justify-
       </div>
 
       <div class="proj-card reveal">
-        <div class="proj-thumb pg5"><span class="icon">🖼️</span>
-          <span class="status-pill status-live"><span class="sd" style="background:var(--green)"></span>LIVE</span>
+        <div class="proj-thumb pg7"><span class="icon">🖼️</span>
+          <span class="status-pill status-live"><span class="sd" style="background:var(--gold)"></span>IN PROGRESS</span>
         </div>
         <div class="proj-body">
           <h3>Wallscape</h3>
@@ -601,35 +630,21 @@ footer{border-top:1px solid var(--line);padding:2.2rem 5vw;display:flex;justify-
         </div>
       </div>
 
-      
       <div class="proj-card reveal">
-        <div class="proj-thumb pg8"><span class="icon">🛒</span>
+        <div class="proj-thumb pg8"><span class="icon">👤</span>
           <span class="status-pill status-live"><span class="sd" style="background:var(--green)"></span>LIVE</span>
         </div>
         <div class="proj-body">
-          <h3>E-Commerce Website</h3>
+          <h3>HTML Based Multi-Portfolio</h3>
           <div class="proj-org">DecodeLabs Internship</div>
-          <p>A multi-page online store with product listings, cart, checkout, and login/register flows.</p>
+          <p>Four milestone projects showcasing static design, responsive layouts, interactive UI components, and secure form validation.All mentioned in home page</p>
           <div class="ptags"><span class="ptag">HTML</span><span class="ptag">CSS</span><span class="ptag">JavaScript</span></div>
           <div class="plinks">
             <a href="https://danishcoderx.github.io/Decodelabs-Internship-Danish-Saeed/" target="_blank" class="plink plink-live">Live Demo ↗</a>
-            <a href="https://github.com/DanishCoderX" target="_blank" class="plink plink-code">Code</a>
+            <a href="https://github.com/DanishCoderX/Decodelabs-Internship-Danish-Saeed" target="_blank" class="plink plink-code">Code</a>
           </div>
         </div>
       </div>
-
-      <div class="proj-card reveal">
-        <div class="proj-thumb pg6"><span class="icon">🧩</span>
-          <span class="status-pill status-academic"><span class="sd" style="background:var(--azure)"></span>ACADEMIC</span>
-        </div>
-        <div class="proj-body">
-          <h3>AI API Generator</h3>
-          <div class="proj-org">Final Year Project</div>
-          <p>A multi-provider system (Groq, Gemini, OpenRouter) that generates datasets, APIs, and dashboards on demand.</p>
-          <div class="ptags"><span class="ptag">Node.js</span><span class="ptag">Flask</span><span class="ptag">React</span></div>
-        </div>
-      </div>
-
 
     </div>
   </div>
@@ -664,7 +679,8 @@ footer{border-top:1px solid var(--line);padding:2.2rem 5vw;display:flex;justify-
           <div class="tl-org">DevelopersHub</div>
           <p>Delivered a first-phase project set, then built Business Nexus — a 7-milestone platform connecting entrepreneurs and investors with real-time features.</p>
           <div class="tl-foot">
-            <a href="https://danishcoderx.github.io/DevelopersHub-1stphase-Danish-Saeed/" target="_blank" class="tl-link">View Live Project ↗</a>
+            <a href="https://nexus-alpha-sooty.vercel.app" target="_blank" class="tl-link">View Live Project 1 ↗</a>
+            <a href="https://danishcoderx.github.io/DevelopersHub-1stphase-Danish-Saeed/" target="_blank" class="tl-link">View Live Project 2 ↗</a>
             <span class="tl-badge badge-done">Completed</span>
           </div>
         </div>
@@ -747,6 +763,8 @@ footer{border-top:1px solid var(--line);padding:2.2rem 5vw;display:flex;justify-
         <div class="ccard"><div class="cicon">📍</div><div><div class="clabel">Location</div><div class="cval">Attock, Punjab, Pakistan</div></div></div>
         <a class="ccard" href="https://github.com/DanishCoderX" target="_blank"><div class="cicon">💻</div><div><div class="clabel">GitHub</div><div class="cval">github.com/DanishCoderX</div></div></a>
         <a class="ccard" href="https://www.linkedin.com/in/danish-saeed-235b20408" target="_blank"><div class="cicon">🔗</div><div><div class="clabel">LinkedIn</div><div class="cval">linkedin.com/in/danish-saeed</div></div></a></div>
+
+      </div>
 
       <form class="form-card reveal" id="contactForm" onsubmit="handleSubmit(event)">
         <div class="frow">
@@ -860,17 +878,10 @@ const statObs=new IntersectionObserver((entries)=>{
 },{threshold:0.5});
 statEls.forEach(el=>statObs.observe(el));
 
-/* ── Contact form : sends via EmailJS ── */
-/* Setup steps (one-time):
-   1. Create a free account at https://www.emailjs.com
-   2. Add an Email Service (e.g. Gmail) -> copy its Service ID
-   3. Create an Email Template with variables: {{first_name}} {{last_name}} {{reply_to}} {{service}} {{message}}
-      -> copy its Template ID
-   4. Go to Account > General -> copy your Public Key
-   5. Paste all three values into the constants below.               */
 const EMAILJS_PUBLIC_KEY  = "i-22PRgciseI45T_s";
 const EMAILJS_SERVICE_ID  = "service_p27v58o";
 const EMAILJS_TEMPLATE_ID = "template_la8urbm";
+
 
 if(window.emailjs && EMAILJS_PUBLIC_KEY !== "YOUR_PUBLIC_KEY"){
   emailjs.init(EMAILJS_PUBLIC_KEY);
@@ -882,14 +893,6 @@ function handleSubmit(e){
   const msg=document.getElementById('formMsg');
   const form=document.getElementById('contactForm');
 
-  if(EMAILJS_PUBLIC_KEY === "YOUR_PUBLIC_KEY"){
-    msg.style.display='block';
-    msg.style.background='rgba(231,183,104,.14)';
-    msg.style.border='1px solid rgba(231,183,104,.35)';
-    msg.style.color='var(--gold)';
-    msg.textContent='⚠ EmailJS isn\'t configured yet — add your Public Key, Service ID, and Template ID in the script.';
-    return;
-  }
 
   btn.textContent='Sending...';btn.disabled=true;
   emailjs.sendForm(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, form).then(()=>{
